@@ -317,7 +317,11 @@ input[type=radio]{
     text-decoration: none; /* Remove underline */
 }
 
-
+.c_secondary{
+  text-align-last: center;
+  text-align: justify;
+}
+/* .c_secondary */
 
 
 /* swiper js crousel  */
