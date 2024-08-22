@@ -23,7 +23,7 @@ function createAccordion() {
         `;
         container.appendChild(accordionItem);
 
-        fetch(`http://api.tvmaze.com/search/shows?q=${word}`)
+        fetch(`https://api.tvmaze.com/search/shows?q=${word}`)
             .then(response => response.json())
             .then(data => {
                 const shows = data.slice(0, 3);
